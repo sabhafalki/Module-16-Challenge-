@@ -30,8 +30,5 @@ Data Sources: Amazon Wireless review datasets
 
 # Summary #
 From our analysis, we were able to conclude that the following:
-1. This analysis is trying to find the best model that can detect if a loan is high risk or not. Becasue of that, we need to find a model that lets the least amount of high risk loans pass through undetected.
-2. When working with balanced accuracy, the highest compared accuracy between 0 and 1 and is closest to 1 is the best machine learning model.
-3. The Easy Ensemble AdaBoost Classifier is the best model for the Credit_Risk_Analysis with 93% Accuracy Score.
-4. The most weakest model in predicting the credit card risk is undersampling method which shows the lowest f1 score.
+1.After I had come up with my analysis there does not appear to be any sort of positivity bias because the percentages shown above are very similar at 38%. To conclude the analysis the vine program does not show any bias.
 
