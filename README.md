@@ -1,6 +1,7 @@
 # Module-16-Challenge  Amazon_Vine_Analysis
 # Overview of Project #
-The purpose of this Project is to analyze Amazon reviews for paid Amazon Vine program.
+The purpose of this Project is to analyze Amazon reviews form paid Amazon Vine program to determine if there is any bias favorable reviews from Vine members.The Amazon Vine program is a service that allows manufacturers and publishers to receive reviews for their products. We are using PySpark to perform the ETL process to extract the dataset focused on the US reviews for wireless products. 
+
 The analysis consisted of the following:
 1. Resampling Models to Predict Credit Risk.
 2. SMOTEENN Algorithm to Predict Credit Risk.
@@ -8,7 +9,7 @@ The analysis consisted of the following:
 
 # Resources #
 Software: JGoogle Colab Notebook, PostgreSQL 11.9, pgAdmin 4, AWS<br>
-Data Sources: Amazon Wireless eview datasets
+Data Sources: Amazon Wireless review datasets
 
 # Results #
 ## Credit Risk Resampling Techniques ##
