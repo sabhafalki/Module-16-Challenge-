@@ -29,6 +29,7 @@ Data Sources: Amazon Wireless review datasets
 ![Non-Vine_reviews](/Image/unpaid_five_star_percent.png)
 
 # Summary #
-From our analysis, we were able to conclude that the following:
-1.After I had come up with my analysis there does not appear to be any sort of positivity bias because the percentages shown above are very similar at 38%. To conclude the analysis the vine program does not show any bias.
+From our analysis, we were able to conclude that the following:<br>
+- 47% of the reviews are Non-Vine program in the 5 stars reviews whereas the percentage of Vine reviews are only 36%. This describes that the reviews are bias towards Non-Vine reviews.
+- Additionally we could analyze the statistical distribution (mean, median and mode) of the star rating for the Vine and non-Vine reviews.
 
