@@ -3,62 +3,18 @@
 The purpose of this Project is to analyze Amazon reviews form paid Amazon Vine program to determine if there is any bias favorable reviews from Vine members.The Amazon Vine program is a service that allows manufacturers and publishers to receive reviews for their products. We are using PySpark to perform the ETL process to extract the dataset focused on the US reviews for wireless products. 
 
 The analysis consisted of the following:
-1. Resampling Models to Predict Credit Risk.
-2. SMOTEENN Algorithm to Predict Credit Risk.
-3. Ensemble Classifiers to Predict Credit Risk.
+1. Perform ETL on Amazon Wireless Product Reviews.
+2. Determine Bias of Vine Reviews.
 
 # Resources #
 Software: JGoogle Colab Notebook, PostgreSQL 11.9, pgAdmin 4, AWS<br>
 Data Sources: Amazon Wireless review datasets
 
 # Results #
-## Credit Risk Resampling Techniques ##
-### Naive Random Oversampling ###
-- Balanced Accuracy: 0.65%
-- Precision: The precision is low for High-risk loans and is high for Low-risk loans.
-- Recall High Risk: 62%
-- Recall Low Risk: 68% <br>
+### How many Vine reviews and non-Vine reviews were there? ###
+### How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars? ###
+### What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars? ###
 
-![Naive Random Oversampling](/Image/Naive_Random_Oversampling.png)
-
-### SMOTE Oversampling ###
-- Balanced Accuracy: 0.62%
-- Precision: The precision is low for High-risk loans and is high for Low-risk loans.
-- Recall High Risk: 59%
-- Recall Low Risk: 66% <br>
-
-![SMOTE_Oversampling](/Image/SMOTE_Oversampling.png)
-
-### Undersampling ###
-- Balanced Accuracy: 0.51.6%
-- Precision: The precision is low for High-risk loans and is high for Low-risk loans.
-- Recall High Risk: 60%
-- Recall Low Risk: 43% <br>
-
-![Undersampling](/Image/Undersampling.png)
-## SMOTEENN Algorithm to Predict Credit Risk ##
-### Combination (Over and Under) Sampling ###
-- Balanced Accuracy: 0.64.6%
-- Precision: The precision is low for High-risk loans and is high for Low-risk loans.
-- Recall High Risk: 71%
-- Recall Low Risk: 58% <br>
-
-![Combination (Over and Under) Sampling](/Image/Combination_(Over_and_Under)_Sampling.png)
-
-## Ensemble Classifiers to Predict Credit Risk ##
-### Balanced Random Forest Classifier ###
-- Balanced Accuracy: 0.78.7%
-- Precision: The precision is low for High-risk loans and is high for Low-risk loans.
-- Recall High Risk: 67%
-- Recall Low Risk: 91% <br>
-
-![Naive Random Oversampling](/Image/Balanced_Random_Forest_Classifier.png)
-
-### Easy Ensemble AdaBoost Classifier ###
-- Balanced Accuracy: 0.92.5%
-- Precision: The precision is low for High-risk loans and is high for Low-risk loans.
-- Recall High Risk: 91%
-- Recall Low Risk: 94% <br>
 
 ![Easy_Ensemble_AdaBoost_Classifier](/Image/Easy_Ensemble_AdaBoost_Classifier.png)
 
