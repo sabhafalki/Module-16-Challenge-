@@ -12,7 +12,11 @@ Data Sources: Amazon Wireless review datasets
 
 # Results #
 ### How many Vine reviews and non-Vine reviews were there? ###
+- Vine Reviews
+![Vine_reviews](/Image/Vine_reviews.png)
+
 ### How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars? ###
+![Easy_Ensemble_AdaBoost_Classifier](/Image/Easy_Ensemble_AdaBoost_Classifier.png)
 ### What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars? ###
 
 
